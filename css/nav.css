@@ -1,0 +1,33 @@
+nav {
+    width: 100%;
+    background-color: var(--color-secondary);
+    font-size: 1em;
+}
+
+.nav-list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+}
+
+.nav-list_item {
+    width: 33.33%;
+    background-color: var(--color-primary);
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+.nav-list_item--current {
+    background-color: var(--color-secondary);
+}
+
+.nav-list_link {
+    display: block;
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+.nav-list_link:hover {
+    color: var(--color-accent);
+}
