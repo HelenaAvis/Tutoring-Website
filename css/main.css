@@ -1,0 +1,35 @@
+main {
+    flex: 1;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card {
+    flex: 1;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: var(--color-primary);
+}
+
+.main-card_heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.main-card_text {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.main-card_link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.main-card_link:hover {
+    text-decoration: underline;
+}
