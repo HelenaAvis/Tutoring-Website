@@ -1,0 +1,16 @@
+header {
+    background-color: var(--color-primary);
+    padding: 1em;
+}
+
+.header-title {
+    color: var(--color-light);
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-subtitle {
+    color: var(--color-accent);
+    font-size: 1.5em;
+    margin: 0;
+}
