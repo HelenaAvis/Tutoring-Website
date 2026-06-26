@@ -37,6 +37,8 @@ footer {
 }
 
 .footer-title {
+    width: 100%;
+    text-align: right;
     color: var(--color-light);
     font-size: 1em;
     margin: 0;
